@@ -260,6 +260,11 @@ header nav {
   border-radius: 5px;
 }
 
+.product__button-manipulate:hover {
+  border: 2px solid #385f04;
+  color: #385f04;
+}
+
 .product__button-manipulate span {
   font-size: clamp(0.75rem, 0.3rem + 3.5vw, 1rem);
 }
@@ -270,12 +275,11 @@ header nav {
 }
 
 .button__white span {
-  width: 100%;
   text-align: start;
 }
 
 .button__white img {
-  width: 40%;
+  width: auto;
 }
 
 .product__price-box {
@@ -396,6 +400,10 @@ footer {
   gap: 5px;
 }
 
+.comment__image-wrapper {
+  width: 50%;
+}
+
 /* ============================================================ CHECKOUT BLOCK ============================================================ */
 .checkout {
   position: relative;
@@ -445,6 +453,10 @@ footer {
   font-weight: 700;
   font-size: clamp(0.75rem, 0.3rem + 3.5vw, 1rem);
   border-radius: 5px;
+}
+
+.checkout__button:hover {
+  background-color: #00527e;
 }
 
 .checkout__summary-price {

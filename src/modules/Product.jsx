@@ -19,9 +19,9 @@ export default function Product() {
                     <span className="product__price-new">{data.newPrice}</span>
                 </div>
                 <div className="product__buttons-wrapper flex-row">
-                    <button className="product__button-manipulate button__green flex-row">
+                    {/* <button className="product__button-manipulate button__green flex-row">
                         {data.add}
-                    </button>
+                    </button> */}
                     <button className="product__button-manipulate button__white flex-row">
                         <img src="./img/icons/heart.svg" alt="" />
                         <span>{data.favourite}</span>
@@ -84,6 +84,11 @@ export default function Product() {
                                 <div className="comment__text">
                                     {comment.text}
                                 </div>
+                                {comment.image && (
+                                    <div className="comment__image-wrapper">
+                                        <img src={comment.image} alt="" />
+                                    </div>
+                                )}
                             </div>
                         );
                     })}
