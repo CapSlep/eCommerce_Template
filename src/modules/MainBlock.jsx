@@ -2,7 +2,7 @@ import Product from "./Product";
 
 import { useData } from "../DataContext"; // Import the custom hook
 
-export default function MainBlock() {
+export default function MainBlock({ buyHandler }) {
     const data = useData();
 
     return (
@@ -30,7 +30,10 @@ export default function MainBlock() {
                                 {data.newPrice}
                             </span>
                         </div>
-                        <button className="checkout__button">
+                        <button
+                            onClick={buyHandler}
+                            className="checkout__button"
+                        >
                             {data.checkout}
                         </button>
                     </div>
