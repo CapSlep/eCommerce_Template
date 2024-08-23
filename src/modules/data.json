@@ -1,0 +1,74 @@
+{
+    "oldPrice": "£68.00",
+    "newPrice": "£1.99",
+    "sesarchText": "Search for products and recipes...",
+    "navButtons": [
+        "Groceries",
+        "Recipes",
+        "Offers",
+        "Favourites",
+        "Delivery Pass",
+        "Rewards",
+        "Summer",
+        "School Shop",
+        "Sale"
+    ],
+    "productName": "Scoville Neverstick 5 Piece Cookware & Pan Set",
+    "productCode": "Product code: 5880971",
+    "add": "add",
+    "favourite": "Favourite",
+    "addToList": "Add to list",
+    "greatOffers": "Great Offers",
+    "descriptionTitle": "Description",
+    "commentsTitle": "Reviews",
+    "descriptionTexts": [
+        "This 5 piece Scoville cookware set is perfect if you’re just starting out in a new kitchen or as a gift. With a milk pan, two saucepans, 24cm frying pan and a free 20cm frying pan this set is the essential and most affordable way to introduce Neverstick to your home.",
+        "This set radicalises the way you cook by featuring Neverstick, the latest innovation in non-stick technologies. ",
+        "Neverstick lets you cook without butter, fats and oil without food sticking to the pan, making washing-up easier too! With its high-grade aluminium body and stainless steel base: Scoville Neverstick is resilient and achieves superbly even heat distribution for a perfectly cooked meal every time. No more burnt bits stuck at bottom of the dish a quick soak in soapy water and the washing-up is done!",
+        "We are so proud of Neverstick that this Scoville set comes with a lifetime guarantee!!"
+    ],
+    "descriptionList": [
+        "Lifetime Guarantee including the non-stick!",
+        "Suitable for all cookers including induction",
+        "Dishwasher safe",
+        "Flake and peel free",
+        "100% PFOA free"
+    ],
+    "productInformation": [
+        "ASDA Product Information",
+        "At ASDA, we do everything we can to make sure the information about the products we sell is always as accurate as possible. However, because products are regularly improved, the product information, ingredients, nutritional guides and dietary or allergy advice may occasionally change. As a result, we recommend that you always read the label carefully before using or consuming any products. Please do not solely rely on the information provided on this website Because of this, ASDA is unable to accept liability for any inaccuracies or incorrect information contained on this site. This does not affect your statutory rights. This information is supplied for personal use only. It must not be reproduced in any way whatsoever without the prior consent of ASDA, nor without due acknowledgement.",
+        "In-store availability, prices and promotions may vary from those online."
+    ],
+    "shoppingTotal": "Shopping total",
+    "checkout": "Checkout",
+    "backToTop": "Back to top",
+    "footer": "© ASDA 2024",
+    "yourTrolley": "Your trolley",
+    "comments": [
+        {
+            "title": "Scoville pans",
+            "text": "Very good quality efficient to use",
+            "time": "22/08/2024"
+        },
+        {
+            "title": "Pans",
+            "text": "They seem sturdy and look nice Time will tell if they remain non stick. Wish the frying pan was a bit bigger but apart from that I'm happy with the purchase",
+            "time": "17/08/2024"
+        },
+        {
+            "title": "Scoville Nevers tick 5 piece Cookware Set",
+            "text": "Totally in love with this pan set. A sturdy set of pans, and well made handles. I have used them daily , they are every thing I wanted in a pan set.",
+            "time": "04/08/2024"
+        },
+        {
+            "title": "Brilliant value",
+            "text": "Brilliant set very robust and easy cleaned bonus need little to no oil",
+            "time": "03/08/2024"
+        },
+        {
+            "title": "Pan set",
+            "text": "Great quality, lovely design, perfect for a large family.",
+            "time": "02/08/2024"
+        }
+    ]
+}
