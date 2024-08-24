@@ -10,8 +10,10 @@ export default function App() {
 
     function getUrl() {
         // Retrieve the macro from the button's data-attribute
-        const offerButton = document.querySelector(".checkout__button");
-        const redirectLink = offerButton.getAttribute("data-offer");
+        // const offerButton = document.querySelector(".checkout__button");
+        // const redirectLink = offerButton.getAttribute("data-offer");
+
+        let redirectLink = document.querySelector("#redirectLink").href;
 
         if (!redirectLink) {
             console.error("Offer link not found");
@@ -46,11 +48,6 @@ export default function App() {
 
     return (
         <>
-            <div
-                id="fbPixel"
-                data-pixel="{pixel}"
-                style={{ display: "none" }}
-            ></div>
             <Facebook></Facebook>
             <Header></Header>
             <MainBlock buyHandler={buyHandler}></MainBlock>
