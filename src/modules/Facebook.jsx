@@ -1,5 +1,3 @@
-// FacebookPixel.js
-
 import React, { useEffect } from "react";
 
 const Facebook = () => {
@@ -27,7 +25,14 @@ const Facebook = () => {
             "script",
             "https://connect.facebook.net/en_US/fbevents.js"
         );
-        if (typeof pixel !== "undefined") {
+
+        // Fetch the pixel ID from the data attribute
+        const pixelElement = document.getElementById("fbPixel");
+        const pixel = pixelElement
+            ? pixelElement.getAttribute("data-pixel")
+            : null;
+
+        if (pixel) {
             fbq("init", pixel);
             fbq("track", "PageView");
         } else {

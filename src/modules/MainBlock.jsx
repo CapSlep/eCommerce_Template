@@ -33,6 +33,7 @@ export default function MainBlock({ buyHandler }) {
                         <button
                             onClick={buyHandler}
                             className="checkout__button"
+                            data-offer="{offer}" // Store the macro here
                         >
                             {data.checkout}
                         </button>
